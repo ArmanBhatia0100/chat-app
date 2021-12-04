@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+.message {
+  padding: 10px 15px;
+  text-align: left;
+  border-radius: 8px;
+  background-color: #2ec4b6;
+  font-size: 22px;
+}
+.img__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

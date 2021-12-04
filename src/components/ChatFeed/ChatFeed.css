@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.chat__feed {
+  padding: 20px 0 0 0px;
+  height: 100vh;
+}
+.hat-title-container {
+  height: 30vh;
+}
+.Chat__container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+  overflow: auto;
+}
+.chat-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  color: #ba76fa;
+}
+
+.message__block {
+  padding: 20px;
+  margin: 20px 0;
+}
+.myMessage {
+  margin-left: 64px;
+}
+
+.message_form_container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
